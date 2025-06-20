@@ -1,0 +1,21 @@
+theme = "anemone"
+base_url = "https://blog.fridaydeploy.xyz"
+compile_sass = false
+build_search_index = false
+
+
+# The theme supports feeds (RSS and ATOM)
+generate_feeds = false
+
+[extra]
+list_pages = true
+toc = true
+
+header_nav = [
+  { url = "/", name_en = "/home/" },
+  { url = "/about", name_en = "/about/" }
+]
+
+# footer_content_license = "CC BY 4.0"
+footer_content_license = true
+footer_content_license_link = "https://creativecommons.org/licenses/by/4.0/"

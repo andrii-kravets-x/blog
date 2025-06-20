@@ -1,0 +1,29 @@
+<hr>
+<div id="footer-container">
+    
+    <p>© Andrii Kravets | Content licensed under <a target="_blank" rel="noopener noreferrer" href="https://creativecommons.org/licenses/by/4.0/">CC BY-SA 4.0</a>
+    </p>
+<aside id="footer-container-right">
+    Made using <a target="_blank" rel="noopener noreferrer" href="https://github.com/getzola/zola">Zola</a> + <a target="_blank" rel="noopener noreferrer" href="https://github.com/Speyll/anemone">anemone</a>
+</aside>
+
+</div>
+
+<script>
+document.addEventListener("DOMContentLoaded", () => {
+    const a = console.log;
+    const jsonData = '{"urls":["https://i.ibb.co/sw2shCG/1.gif","https://i.ibb.co/9cBPqcf/5.gif","https://i.ibb.co/MPNNjFZ/8.gif","https://i.ibb.co/8N5zS8m/11.gif","https://i.ibb.co/6nQ594N/12.gif","https://i.ibb.co/3ptYG1c/14.gif","https://i.ibb.co/BsnsKpk/15.gif","https://i.ibb.co/8YG3rMg/16.gif","https://i.ibb.co/fp1bFWv/17.gif","https://i.ibb.co/DYRtRkQ/19.gif","https://i.ibb.co/ydLTN3m/23.gif","https://i.ibb.co/PQvGf4f/27.gif","https://i.ibb.co/4YzB1r1/30.gif","https://i.ibb.co/FbYkQq9/31.gif","https://i.ibb.co/jrC82Fk/32.gif","https://i.ibb.co/gv5jncQ/33.gif","https://i.ibb.co/JvxCF7B/34.gif","https://i.ibb.co/RBJ1S48/35.gif","https://i.ibb.co/k69wXV8/36.gif","https://i.ibb.co/SvfGrhz/38.gif","https://i.ibb.co/840c0Dv/39.gif","https://i.ibb.co/CQd4w8n/40.gif","https://i.ibb.co/GHj7gK1/42.gif","https://i.ibb.co/T4JLWtb/45.gif","https://i.ibb.co/VqJvBnz/46.gif","https://i.ibb.co/XXVMPZz/47.gif","https://i.ibb.co/MNxqK9y/48.gif","https://i.ibb.co/8xwkTMb/50.gif","https://i.ibb.co/3c7hH51/51.gif","https://i.ibb.co/16dFmS9/53.gif","https://i.ibb.co/GnfrzYq/55.gif","https://i.ibb.co/hyFqq6D/56.gif","https://i.ibb.co/J5Qb4NQ/58.gif","https://i.ibb.co/pZBrSrc/59.gif","https://i.ibb.co/DW1FHzY/60.gif","https://i.ibb.co/3y6xYVn/61.gif","https://i.ibb.co/ZMNTssG/62.gif","https://i.ibb.co/PM4jFc5/63.gif","https://i.ibb.co/wYZ3tnR/64.gif","https://i.ibb.co/xj5QCkf/66.gif","https://i.ibb.co/mXX5fvy/67.gif","https://i.ibb.co/72kqqpc/68.gif","https://i.ibb.co/ZKtbS92/69.gif","https://i.ibb.co/G75dt9L/66.webp","https://i.ibb.co/Yc3sf2B/67.webp","https://i.ibb.co/KmTpRWb/70.gif","https://i.ibb.co/2tY1xJ3/71.gif","https://i.ibb.co/LpTqryw/72.gif","https://i.ibb.co/wz3yvb1/73.gif","https://i.ibb.co/NxVWyVB/74.gif","https://i.ibb.co/Qnnzcj7/76.gif","https://i.ibb.co/gyskjnP/77.gif","https://i.ibb.co/py30jH2/78.gif","https://i.ibb.co/X2625LD/79.gif","https://i.ibb.co/5cgCqRy/80.gif","https://i.ibb.co/Dp4XSdL/81.gif","https://i.ibb.co/7jqwBBv/83.gif","https://i.ibb.co/gWPbg45/84.gif","https://i.ibb.co/HTktH0K/85.gif","https://i.ibb.co/TPDCNR5/86.gif","https://i.ibb.co/0BZx6rF/87.gif","https://i.ibb.co/6gwwrKx/88.gif","https://i.ibb.co/d5RMd9v/89.gif","https://i.ibb.co/X2yGnXV/90.gif"]}';
+    try {
+        const data = JSON.parse(jsonData);
+        const d = data.urls;
+        const e = Math.floor(Math.random() * d.length);
+        const f = d[e];
+        const g = document.getElementById("target");
+        g.src = f;
+        a(g);
+    } catch (error) {
+        console.error('Error:', error);
+    }
+});
+</script>
+<img alt="" class="moe no-style" id="target" loading="lazy">
