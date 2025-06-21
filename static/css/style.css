@@ -1,7 +1,11 @@
 :root {
     --icon-size: 1.3rem;
     --icon-color: var(--text);
-    font-size: 1.3rem;
+    font-size: 1.15rem;
+}
+
+body{
+  color: inherit;
 }
 
 #nav-bar {
@@ -119,6 +123,12 @@
 .center img {
   display: block;
   margin: 1rem auto;
+}
+
+img {
+  opacity: 1.0;
+  border: none;
+  border-radius: 10px;
 }
 
 /* shortcodes css */
